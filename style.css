@@ -1,0 +1,159 @@
+h1 {
+  color: #7AA1D2;
+  font-size: 56px;
+  background: #f1c3b8;
+font-family: 'Tenali Ramakrishna', sans-serif;
+
+
+}
+
+div {
+ background: lightblue;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:  #f1c3b8;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 30px;
+  color: #9F3442;
+}
+
+.link:hover {
+  color: #458D2E;
+}
+
+.line-transparent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.line-light {
+  height: 5px;
+  width: 20%;
+  background: #EE9CA7;
+}
+
+.line-medium {
+  height: 5px;
+  width: 30%;
+  background: #C86472;
+}
+
+.line-hard {
+  height: 5px;
+  width: 50%;
+  background: #9F3442;
+}
+body {
+  background: #ffcbcb;
+font-family: 'Tenali Ramakrishna', sans-serif;
+    text-align: center;
+   background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+h3{
+	font-size : 36px;
+}
+
+img {
+  width: 600px;
+  height: 200px;
+  object-fit: cover;
+}
+p{
+font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size : 16px;
+
+}
+
+.cadre {
+  background: #BEE7E8;
+  border: 3px solid #BEE7E8
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.bellagio {
+  width: 600px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+
+.jamaique {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+
+.toronto {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px grey;
+  margin: 10px;
+}
+
+.cadre {
+  background: #82c4c3
+  border: 3px solid #82c4c3;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px grey;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+.btn-pink {
+  display: inline-block;
+  align-items: center;
+  color: white;
+  background:  #f1c3b8;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn-pink:hover {
+  color: white;
+  opacity: 0.8;
+}
