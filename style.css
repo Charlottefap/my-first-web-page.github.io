@@ -8,10 +8,10 @@ font-family: 'Tenali Ramakrishna', sans-serif;
 }
 
 div {
- background: lightblue;
+ background:#f1c3b8 ;
 }
 
-.navbar {
+.my-navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
