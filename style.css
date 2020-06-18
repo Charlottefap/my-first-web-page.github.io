@@ -1,7 +1,7 @@
 h1 {
   color: #7AA1D2;
   font-size: 56px;
-  background: #f1c3b8;
+  
 font-family: 'Tenali Ramakrishna', sans-serif;
 
 
@@ -55,6 +55,63 @@ div {
   height: 5px;
   width: 50%;
   background: #9F3442;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 body {
   background: #ffcbcb;
@@ -135,25 +192,45 @@ font-family: 'Tenali Ramakrishna', sans-serif;
   box-shadow: 5px 5px 10px grey;
 }
 
+.voyage{
+  align-items: left
+}
 img {
   width: 300px;
   height: 200px;
   object-fit: cover;
 }
 
+.card-header{ 
+ background: #82c4c3
+  border: 3px solid #82c4c3;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px gre
+ };
+.card-body {
+   background: #82c4c3
+  border: 3px solid #82c4c3;
+  margin: 20px 100px;
+  padding: 30px 70px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px gre
 
-.btn-pink {
+}
+
+.my-btn {
   display: inline-block;
-  align-items: center;
+  align-items: left;
   color: white;
-  background:  #f1c3b8;
+  background:  #7AA1D2;
   margin: 20px;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 50px;
   font-weight: bold;
 }
 
-.btn-pink:hover {
+.my-btn:hover {
   color: white;
   opacity: 0.8;
 }
